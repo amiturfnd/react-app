@@ -1,0 +1,26 @@
+@import './variables.scss';
+
+.app-header {
+  background: $header-bg;
+  min-height: 280px;
+  color: white;
+  text-align: center;
+  padding: 1em 3em 1em;
+
+  &__heading-1 {
+    font-size: $font-h1;
+    font-weight: 700;
+    margin-top: 1em;
+  }
+  &__credit {
+    font-size: $font-h2;
+    font-weight: 600;
+    margin-top: 1em;
+  }
+  &__heading-2 {
+    font-size: $font-h3;
+    color: $h2-color;
+    margin-bottom: 2em;
+    margin-top: 1em;
+  }
+}

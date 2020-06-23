@@ -1,0 +1,16 @@
+@import './variables.scss';
+
+.primary-btn {
+  background: $primary-btn-bg;
+  border-radius: 2px;
+  display: inline-block;
+  font-size: $font-m;
+  font-weight: 700;
+  height: 3em;
+  line-height: 3em;
+  text-align: center;
+  outline: none;
+  padding: 0 2em;
+  text-decoration: none;
+  color: $white;
+}

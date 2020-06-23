@@ -1,0 +1,54 @@
+{
+  "title": "Container Runtime",
+  "courses": [
+    {
+      "id": "container-runtimes",
+      "title": "Docker, Container Runtimes, Builders and Registries",
+      "info": "Learn how to use Docker, Podman, Firecracker and other container",
+      "scenarios": 34,
+      "logo": "um"
+    },
+    {
+      "id": "container-runtimes",
+      "title": "Kubernetes Introduction",
+      "info": "Learn how to use Docker, Podman, Firecracker and other container",
+      "scenarios": 1,
+      "logo": "bikini"
+    },
+    {
+      "id": "container-runtimes",
+      "title": "Extending Kubernetes",
+      "info": "Learn how to use Docker, Podman, Firecracker and other container",
+      "scenarios": 24,
+      "logo": "cam"
+    },
+    {
+      "id": "container-runtimes",
+      "title": "Machine Learning",
+      "info": "Learn how to use Docker, Podman, Firecracker and other container",
+      "scenarios": 34,
+      "logo": "clothing"
+    },
+    {
+      "id": "container-runtimes",
+      "title": "Linux & Operating Systems",
+      "info": "Learn how to use Docker, Podman, Firecracker and other container",
+      "scenarios": 34,
+      "logo": "drink"
+    },
+    {
+      "id": "container-runtimes",
+      "title": "Continuous Integration and Continuous Delivery",
+      "info": "Learn how to use Docker, Podman, Firecracker and other container",
+      "scenarios": 44,
+      "logo": "liferin"
+    },
+    {
+      "id": "container-runtimes",
+      "title": "Orchestration & Application Definition",
+      "info": "Learn how to use Docker, Podman, Firecracker and other container",
+      "scenarios": 37,
+      "logo": "slippers"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+@import './variables.scss';
+
+.img-title-desc-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  padding: 0 2em;
+
+  &__header {
+    margin-top: 2em;
+  }
+
+  &__title {
+    margin-top: 1em;
+    color: $blue-header-color;
+    font-size: $font-h2;
+  }
+  &__desc {
+    margin-top: 1em;
+    font-size: $font-sm;
+    line-height: 1.5;
+  }
+}

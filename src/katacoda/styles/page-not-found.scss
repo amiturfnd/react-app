@@ -1,0 +1,49 @@
+@import './variables.scss';
+
+.page-not-found {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  max-width: 80em;
+  margin: 4em auto;
+  box-sizing: border-box;
+  grid-gap: 4em;
+  justify-content: space-around;
+
+  #Polygon-1 , #Polygon-2 , #Polygon-3 , #Polygon-4 , #Polygon-4, #Polygon-5 {
+    animation: float 1s infinite ease-in-out alternate;
+  }
+  #Polygon-2 {
+    animation-delay: .2s; 
+  }
+  #Polygon-3 {
+    animation-delay: .4s; 
+  }
+  #Polygon-4 {
+    animation-delay: .6s; 
+  }
+  #Polygon-5 {
+    animation-delay: .8s; 
+  }
+  
+  @keyframes float {
+    100% {
+      transform: translateY(20px);
+    }
+  }
+
+  &__heading-1 {
+    font-size: $font-h1;
+  }
+  &__heading-2 {
+    font-size: $font-h3;
+    margin-bottom: 2em;
+  }
+
+  a {
+    color: $footer-bg;
+
+    &:hover, &:active {
+      color: $footer-bg;
+    }
+  }
+}

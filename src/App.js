@@ -1,26 +1,36 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import './App.scss';
+import Gallery from "./views/Gallery";
+import KatacodaApp from "./katacoda/KatacodaApp";
+import LikedPhotos from "./views/LikedPhotos";
+// import Nav from "./components/Nav";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Switch>
+        <Route exact path="/">
+          <Home />
+        </Route>
+        <Route path="/gallery">
+          <Gallery />
+        </Route>
+        <Route path="/liked-photos">
+          <LikedPhotos />
+        </Route>
+        <Route path="/katacoda">
+          <KatacodaApp />
+        </Route>
+      </Switch>
+    </Router>
   );
 }
+
+const Home = () => {
+  return (
+      <h1>Its Home</h1>
+  )
+};
 
 export default App;

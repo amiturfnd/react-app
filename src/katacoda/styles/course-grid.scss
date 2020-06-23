@@ -1,0 +1,25 @@
+@import './variables.scss';
+
+.course-grid {
+  min-height: 400px;
+  background-color: $smoke-bg;
+  padding: 3em 4em 3em;
+
+  &__header {
+    font-size: $font-h1;
+    margin-bottom: 0.25em;
+    font-weight: 600;
+    color: $black-color;
+  }
+
+  &__info {
+    font-size: $font-m;
+    margin-bottom: 1em;
+  }
+
+  &__courses {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
+    grid-gap: 1.5em;
+  }
+}

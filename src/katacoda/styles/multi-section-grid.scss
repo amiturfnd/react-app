@@ -1,0 +1,27 @@
+@import './variables.scss';
+
+.multi-section-grid {
+  text-align: center;
+  padding: 3em 4em 4em;
+  background-color: $smoke-bg;
+
+  &__title {
+    font-size: $font-h1;
+    font-weight: bold;
+  }
+
+  &__desc {
+    font-size: $font-h3;
+    color: $gray-color;
+    margin-top: 1em;
+    margin-bottom: 2em;
+  }
+
+  &__sections {
+    display: grid;
+
+    &--3-section {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+}

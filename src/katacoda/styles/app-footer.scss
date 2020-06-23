@@ -1,0 +1,28 @@
+@import './variables.scss';
+
+.app-footer {
+  background: $footer-bg;
+  color: $white;
+  display: flex;
+  font-size: $font-m;
+  line-height: 56px;
+  min-height: 56px;
+  padding: 0 2em;
+
+  &__rights {
+    color: $white;
+    flex: 3;
+  }
+  &__links {
+    text-align: right;
+    flex: 4;
+
+    a {
+      color: $footer-link-color;
+
+      &:hover, &:active {
+        color: $footer-link-color;
+      }
+    }
+  }
+}

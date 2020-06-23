@@ -1,0 +1,49 @@
+@import './variables.scss';
+
+.course-card {
+  background-color: $course-card-bg;
+  border-radius: .25em;
+  color: $white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 300px;
+  padding: 2em 1em;
+  transition: box-shadow 250ms;
+
+  &:hover {
+    box-shadow: 0em 0em 1em 0em #888888;
+  }
+
+  &__header {
+    display: flex;
+    justify-content: space-between;
+
+    img {
+      width: 2em;
+      height: 2em;
+    }
+  }
+
+  &__scenarios {
+    border: 2px solid $white;
+    padding: .25em .5em;
+    font-size: $font-sm;
+    line-height: 2em;
+    border-radius: 1em;
+    text-transform: uppercase;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  &__title {
+    font-size: $font-h3;
+    margin: 1em 0;
+  }
+
+  &__info {
+    font-size: $font-m;
+    margin-bottom: 2em;
+  }
+}

@@ -1,0 +1,131 @@
+[
+  {
+    "title": "Most Popular Courses",
+    "info": "Learn the latest technologies using our interactive scenarios",
+    "courses": [
+      {
+        "id": "container-runtimes",
+        "title": "Docker, Container Runtimes, Builders and Registries",
+        "info": "Learn how to use Docker, Podman, Firecracker and other container",
+        "scenarios": 34,
+        "logo": "um"
+      },
+      {
+        "id": "container-runtimes",
+        "title": "Kubernetes Introduction",
+        "info": "Learn how to use Docker, Podman, Firecracker and other container",
+        "scenarios": 1,
+        "logo": "bikini"
+      },
+      {
+        "id": "container-runtimes",
+        "title": "Extending Kubernetes",
+        "info": "Learn how to use Docker, Podman, Firecracker and other container",
+        "scenarios": 24,
+        "logo": "cam"
+      },
+      {
+        "id": "container-runtimes",
+        "title": "Machine Learning",
+        "info": "Learn how to use Docker, Podman, Firecracker and other container",
+        "scenarios": 34,
+        "logo": "clothing"
+      },
+      {
+        "id": "container-runtimes",
+        "title": "Linux & Operating Systems",
+        "info": "Learn how to use Docker, Podman, Firecracker and other container",
+        "scenarios": 34,
+        "logo": "drink"
+      },
+      {
+        "id": "container-runtimes",
+        "title": "Continuous Integration and Continuous Delivery",
+        "info": "Learn how to use Docker, Podman, Firecracker and other container",
+        "scenarios": 44,
+        "logo": "liferin"
+      },
+      {
+        "id": "container-runtimes",
+        "title": "Orchestration & Application Definition",
+        "info": "Learn how to use Docker, Podman, Firecracker and other container",
+        "scenarios": 37,
+        "logo": "slippers"
+      }
+    ]
+  },
+  {
+    "title": "Latest Courses",
+    "info": "Learn the latest technologies using our interactive scenarios",
+    "courses": [
+      {
+        "id": "container-runtimes",
+        "title": "Docker, Container Runtimes, Builders and Registries",
+        "info": "Learn how to use Docker, Podman, Firecracker and other container",
+        "scenarios": 34,
+        "logo": "bikini"
+      }
+    ]
+  },
+  {
+    "title": "Most Popular Community Scenarios",
+    "info": "Scenarios create by members of the Katacoda community. They provide great insights related to the work they're doing.",
+    "courses": [
+      {
+        "id": "container-runtimes",
+        "title": "Docker, Container Runtimes, Builders and Registries",
+        "info": "Scenarios create by members of the Katacoda community. They provide great insights related to the work they're doing.",
+        "scenarios": 34,
+        "logo": "eyeglasses"
+      },
+      {
+        "id": "container-runtimes",
+        "title": "Linux & Operating Systems",
+        "info": "Learn how to use Docker, Podman, Firecracker and other container",
+        "scenarios": 34,
+        "logo": "drink"
+      },
+      {
+        "id": "container-runtimes",
+        "title": "Continuous Integration and Continuous Delivery",
+        "info": "Learn how to use Docker, Podman, Firecracker and other container",
+        "scenarios": 44,
+        "logo": "liferin"
+      },
+      {
+        "id": "container-runtimes",
+        "title": "Orchestration & Application Definition",
+        "info": "Learn how to use Docker, Podman, Firecracker and other container",
+        "scenarios": 37,
+        "logo": "slippers"
+      }
+    ]
+  },
+  {
+    "title": "Newest Playgrounds",
+    "info": "",
+    "courses": [
+      {
+        "id": "container-runtimes",
+        "title": "Docker, Container Runtimes, Builders and Registries",
+        "info": "Learn how to use Docker, Podman, Firecracker and other container",
+        "scenarios": 34,
+        "logo": "coconut"
+      },
+      {
+        "id": "container-runtimes",
+        "title": "Kubernetes Introduction",
+        "info": "Learn how to use Docker, Podman, Firecracker and other container",
+        "scenarios": 1,
+        "logo": "bikini"
+      },
+      {
+        "id": "container-runtimes",
+        "title": "Extending Kubernetes",
+        "info": "Learn how to use Docker, Podman, Firecracker and other container",
+        "scenarios": 24,
+        "logo": "cam"
+      }
+    ]
+  }
+]
